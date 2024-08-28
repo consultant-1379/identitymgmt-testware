@@ -1,0 +1,22 @@
+ChangePasswordFlag,waitTimeInSeconds,expectedresponseBody,expectedResponseError,expectedResponseAuthError
+#------------------------------------------------------------------------------
+# DataSource Name: LOCKOUT_SEQUENCE_DATASOURCE
+# Setup/TearDown: AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.configureLoginLock.
+# Description: List of information for User login lock.
+#     - ChangePasswordFlag: user password will be change on the fly before
+#                           login try.
+#     - waitTimeInSeconds; wait time before login try (in seconds).
+#     - Expected message from login response:
+#           expectedResponseError: expected error message in response body
+#           expectedResponseAuthError: expected message in response header
+#           expectedresponseBody: expected piece of message in response vody
+#  N.B.: if you need an empty string, you should use this notation <Empty String>,
+#        oterwise you'll get 'null'
+#------------------------------------------------------------------------------
+false,1,<Empty String>,MOVED_TEMPORARILY,0
+true,1,<h3>Authentication failed.</h3>,UNAUTHORIZED,
+true,1,<h3>Authentication failed.</h3>,UNAUTHORIZED,
+true,1,<h3>Authentication failed.</h3>,UNAUTHORIZED,
+false,10,<h3>Authentication failed.</h3>,UNAUTHORIZED,
+false,60,<Empty String>,MOVED_TEMPORARILY,0

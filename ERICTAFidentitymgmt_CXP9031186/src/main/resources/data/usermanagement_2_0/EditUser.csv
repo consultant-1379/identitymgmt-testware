@@ -1,0 +1,3 @@
+username,firstName,lastName,description,email,enabled,customizedPasswordAgeingEnable,passwordAgeingEnable,pwdMaxAge,pwdExpireWarning,forcePasswordChange,roles,rolesExpected,targetGroups,targetGroupsExpected,rolesType,isLocal
+UserManagement_CreateUser1,User3_Name,User3_Surname,Description3,user3@enm.com,true,false,false,110,3,false,"UserManagement_COM_ROLE_2,UserManagement_COM_ROLE_1,UserManagement_CUSTOM_MIXED_1","UserManagement_COM_ROLE_2,UserManagement_COMAlias_ROLE_1,ADMINISTRATOR,SECURITY_ADMIN,UserManagement_CUSTOM_MIXED_1,UserManagement_CUSTOM_CAPAB_1","UserManagement_TAF_TG_1,default,UserManagement_TAF_TG_1","1,2,2,2,2,2","com,com,system,system,system,system",true
+

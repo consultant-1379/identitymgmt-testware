@@ -1,0 +1,9 @@
+type,name,description,status,policy,assignedRoles
+custom,GE_UserManagement_CUSTOM_MIXED_1,CUSTOM role for GroupEdit,ENABLED,"{""fm_services"": [""read"",""query""]}",GE_UserManagement_COM_ROLE_1
+custom,GE_UserManagement_CUSTOM_CAPAB_1,CUSTOM role for GroupEdit,ENABLED,"{""fm_services"": [""read"",""query""]}",
+custom,GE_UserManagement_CUSTOM_ROLE_1,CUSTOM role for GroupEdit,ENABLED,,GE_UserManagement_COM_ROLE_1|GE_UserManagement_COM_ROLE_2
+comalias,GE_UserManagement_COMAlias_ROLE_1,COM alias role for GroupEdit,ENABLED,,GE_UserManagement_COM_ROLE_1|GE_UserManagement_COM_ROLE_2
+com,GE_UserManagement_COM_ROLE_1,COM role for GroupEdit,ENABLED,,
+com,GE_UserManagement_COM_ROLE_2,COM role for GroupEdit,ENABLED,,
+com,GE_UserManagement_COM_ROLE_3,COM role for GroupEdit,ENABLED,,
+com,GE_UserManagement_COM_ROLE_4,COM role for GroupEdit,ENABLED,,

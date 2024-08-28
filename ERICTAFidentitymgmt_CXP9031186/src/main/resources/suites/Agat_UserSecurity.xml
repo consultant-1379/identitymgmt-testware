@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   =============================================================================
+         SUITE XML file: is a collection of test cases.
+          Its name should reflect these guideline:
+            '<environment>_<FeatureName>-<UseCase>.xml'
+          where <environment> mean if your test run in 'RealNode' or in 'NetSim',
+           and <FeatureName> refer to what kind of feature your test should check,
+           and <UseCase> is specific UseCase for this Suite.
+       ============================================================================= -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  As in Suite file Name, your suite file should has a 'suite name' tag with
+       these fields, useful to  identify ”To which team the suite belongs and what
+       feature they test” -->
+<suite name="Agat_UserSecurity">
+
+    <!-- - Define Users_To_Create datasource name: default value is 'usersToCreate' (if omitted)  -->
+    <parameter name="userProvidedName" value="newUsersToCreate"/>
+    <!-- - Enable/Disable parallel execution of tests (multiple vUsers)                           -->
+    <parameter name="parallelFlows" value="true"/>
+    <parameter name="createuserParallelFlows" value="false"/>
+
+    <test name="AGAT SecurityCredential - Setup and Teardown">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement.scenario.AgatSetupAndTeardownScenario"/>
+        </classes>
+    </test>
+
+    <test name="AGAT SecurityCredential - Test Cases">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement.scenario.AgatTestCasesScenario">
+                <methods>
+                    <include name="createRoles"/>
+                    <include name="createTargetGroups"/>
+                    <include name="createUser"/>
+                    <include name="checkUserCanLogin"/>
+                    <include name="configureLoginLock"/>
+                    <include name="changeUserPassword"/>
+                    <include name="assignRoleAndTargeGroupToUser"/>
+                    <include name="unassignRoleAndTargeGroupToUser"/>
+                    <include name="updateExistingUserInformation"/>
+                    <include name="createUserWithPasswordAgeing"/>
+                    <include name="updateExistingUserAgeingInformation"/>
+                    <include name="deleteUsers"/>
+                    <include name="deleteTargetGroups"/>
+                    <include name="deleteRoles"/>
+                    <include name="importUsersFromXml"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

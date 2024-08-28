@@ -1,0 +1,12 @@
+firstName,lastName,email,description
+#------------------------------------------------------------------------------
+# DataSource Name: USER_INFO_UPDATE
+# Setup/TearDown: AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.updateExistingUserInformation,
+# Description: This DataSource contains fields to use to modify User information.
+#    Only one information si modified for each user: you can have multiple changes
+#    putting more values in each row.
+# Notes: Each datarecord is managed by a vUser and in DataDrivenScenario representing a test;
+#         so if we've four datarecord, we've also four executed Tests
+#------------------------------------------------------------------------------
+FirstName_007,LastName_007,firstname_007.lastname_007@agat.email.test,"AGAT_US_UM_UpdateUsersInformation - Update Existing User information"

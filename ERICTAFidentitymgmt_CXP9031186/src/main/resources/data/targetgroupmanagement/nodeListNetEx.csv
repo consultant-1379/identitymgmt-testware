@@ -1,0 +1,3 @@
+nodeType,networkElementId,ipAddress,ossPrefix,port,transportType,teamName
+ERBS,TGM_TAF_Despicable_02,1.1.1.42,"MeContext=TGM_TAF_Despicable_02",,,DespicableUs
+RadioNode,TGM_TAF_Despicable_01,1.1.1.250,,6513,TLS,DespicableUs

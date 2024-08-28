@@ -1,0 +1,12 @@
+username,firstName,lastName,description,email,password,enabled,roles
+UserManagement_ListUsers_User1,User1_Name,User1_Surname,description 1,user1@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User2,User2_Name,User2_Surname,description 2,user2@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User3,User3_Name,User3_Surname,description 3,user3@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User4,User4_Name,User4_Surname,description 4,user4@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User5,User5_Name,User5_Surname,description 5,user5@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User6,User6_Name,User6_Surname,description 6,user6@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User7,User7_Name,User7_Surname,description 7,user7@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User8,User8_Name,User8_Surname,description 8,user8@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User9,User9_Name,User9_Surname,description 9,user9@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User10,User10_Name,User10_Surname,description 10,user10@enm.com,TestPassw0rd,true,OPERATOR
+UserManagement_ListUsers_User11,User11_Name,User11_Surname,description 11,user11@enm.com,TestPassw0rd,true,OPERATOR

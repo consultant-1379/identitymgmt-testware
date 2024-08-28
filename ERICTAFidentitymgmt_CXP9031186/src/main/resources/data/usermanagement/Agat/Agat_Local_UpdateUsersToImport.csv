@@ -1,0 +1,21 @@
+userCount,fieldName,fieldValue
+#------------------------------------------------------------------------------
+# DataSource Name:
+# Setup/TearDown: AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.importUsersFromXml
+# Description: This Datasource contain field to be changed (and its values) for
+#               Users to be updated DataSource.
+# Notes: If fieldValue has [], this mean we should use selected' method to updatevelue (password)
+#------------------------------------------------------------------------------
+1,lastName,LASTNAME_96
+1,firstName,FIRSTNAME_96
+1,email,lastname_96.firstname_96@test.email.agat
+2,lastName,lastname_69
+2,firstName,firstname_69
+2,email,LASTNAME_69.FIRSTNAME_69@test.email.agat
+1,password,[]
+2,password,[]
+3,lastName,LaStNaMe_101
+3,firstName,FiRsTnAmE_101
+3,email,lastname_101.firstname_101@test.email.agat
+4,pwdMaxAge,666

@@ -1,0 +1,4 @@
+index,targetGroupName,newDescription,targets,targettype,targetName,tgToFilter
+1,TargetGroupManagement_testTGName.Dot,"this is edited Target Group description","TGM_TAF_Despicable_02,TGM_TAF_Despicable_01",node,TGM_TAF_Despicable_02,TargetGroupManagement_testTGName.Dot
+2,TargetGroupManagement_testTGName.Dot,"this is edited Target Group description",ENM,enm,TGM_TAF_Despicable_02,TargetGroupManagement_testTGName.Dot
+3,TargetGroupManagement_testTGName.Dot,"this is edited Target Group description","ECM_01_DespicableUs",vnfm,TGM_TAF_Despicable_02,TargetGroupManagement_testTGName.Dot

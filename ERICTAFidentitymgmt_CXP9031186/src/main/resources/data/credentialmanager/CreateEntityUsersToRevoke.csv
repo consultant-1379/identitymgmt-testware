@@ -1,0 +1,4 @@
+userName,firstName,lastName,email,password,userType,status
+aga1,Victoria,aaaa1,victoria.oliver@sidero.ie,TestPassw0rd,enmUser,enabled
+aga2,Dorothy,aaaa2,dorothy.baker@sidero.ie,TestPassw0rd,enmUser,disabled
+aga_inactive,Christopher,aaaa5,christopher.bower@sidero.ie,TestPassw0rd,enmUser,enabled

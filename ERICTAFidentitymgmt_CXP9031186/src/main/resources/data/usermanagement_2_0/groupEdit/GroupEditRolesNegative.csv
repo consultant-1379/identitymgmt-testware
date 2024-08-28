@@ -1,0 +1,3 @@
+type,name,description,status,policy,assignedRoles
+com,GEN_UserManagement_COM_ROLE_1,COM role for GroupEditNegative,ENABLED,,
+com,GEN_UserManagement_COM_ROLE_2,COM role for GroupEditNegative,ENABLED,,

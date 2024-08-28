@@ -1,0 +1,11 @@
+type,name,description,status,policy,assignedRoles
+custom,UserManagement_CUSTOM_MIXED_1,CUSTOM role,ENABLED,"{""fm_services"": [""read"",""query""]}",UserManagement_COM_ROLE_1
+custom,UserManagement_CUSTOM_CAPAB_1,CUSTOM role,ENABLED,"{""fm_services"": [""read"",""query""]}",
+custom,UserManagement_CUSTOM_ROLE_1,CUSTOM role,ENABLED,,UserManagement_COM_ROLE_1|UserManagement_COM_ROLE_2
+comalias,UserManagement_COMAlias_ROLE_1,COM alias role,ENABLED,,UserManagement_COM_ROLE_1|UserManagement_COM_ROLE_2
+com,UserManagement_COM_ROLE_1,COM role,ENABLED,,
+com,UserManagement_COM_ROLE_2,COM role,ENABLED,,
+com,UserManagement_COM_ROLE_3,COM role,ENABLED,,
+com,UserManagement_COM_ROLE_4,COM role,ENABLED,,
+com,GEN_UserManagement_COM_ROLE_1,COM role for GroupEditNegative,ENABLED,,
+com,GEN_UserManagement_COM_ROLE_2,COM role for GroupEditNegative,ENABLED,,

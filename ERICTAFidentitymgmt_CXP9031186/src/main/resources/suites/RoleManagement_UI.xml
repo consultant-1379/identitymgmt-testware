@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RoleManagement_UI - DespicableUs">
+    <test name="Role Management - Roles List">
+        <classes>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMListScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMActionButtonsScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMDeleteScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMStatusScenario"/>
+        </classes>
+    </test>
+    <test name="Role Management - Create Role Page">
+        <classes>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateComRoleScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateRoleAliasScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateCustomRoleScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCancelCreateRoleScenario"/>
+<!--             <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateCppRoleScenario"/> -->
+        </classes>
+    </test>
+    <test name="Role Management - Role Comparison tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCompareRolesScenario"/>
+        </classes>
+    </test>
+    <test name="Role Management - Edit Role Page">
+        <classes>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMEditRoleScenario"/>
+        </classes>
+    </test>
+</suite>

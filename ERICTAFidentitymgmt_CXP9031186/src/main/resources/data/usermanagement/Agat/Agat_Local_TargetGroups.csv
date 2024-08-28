@@ -1,0 +1,14 @@
+targetGroupName,targetGroupDescription
+#------------------------------------------------------------------------------
+# DataSource Name: TARGET_GROUP_TO_CREATE (TARGET_GROUP_TO_DELETE)
+# Setup/TearDown:AgatSetupAndTeardownScenario.onBeforeSuite,
+#                AgatSetupAndTeardownScenario.onAfterSuite,
+#                AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.createTargetGroups,
+#             AgatTestCasesScenario.assignRoleAndTargeGroupToUser,
+#             (AgatTestCasesScenario.deleteTargetGroups).
+# Description: Target group to create (and delete) and assign to users.
+# Notes:  Each datarecord is managed by a vUser and in DataDrivenScenario representing a test;
+#         so if we've three datarecord, we've also three executed Tests
+#------------------------------------------------------------------------------
+agat_01_targetgroup,"Target group for TAF 1st. test"

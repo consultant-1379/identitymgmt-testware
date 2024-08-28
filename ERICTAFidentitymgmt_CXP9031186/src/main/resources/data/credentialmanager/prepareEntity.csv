@@ -1,0 +1,4 @@
+fileName,command,users
+"EntityCertificateProfileSLS.xml","pkiadm pfm -c -xf file:EntityCertificateProfileSLS.xml",
+"EntityEntityProfileSLS.xml","pkiadm pfm -c -xf file:EntityEntityProfileSLS.xml",
+"EntitySLS.xml","pkiadm etm -c -xf file:EntitySLS.xml","user_testSLS5"

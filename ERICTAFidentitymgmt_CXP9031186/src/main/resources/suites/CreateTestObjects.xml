@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create test objects - SpiceGirls">
+
+    <test name="Create test objects">
+        <classes>
+            <class name="com.ericsson.nms.security.test.performance.scenario.CreateTestObjects"/>
+        </classes>
+    </test>
+
+</suite>

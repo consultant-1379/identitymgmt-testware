@@ -1,0 +1,3 @@
+username,firstName,lastName,description,email,password,enabled,forcePasswordChange,roles,newFirstName,newLastName,newEmail
+UserManagement_UserToCheckProfile1,User1_Name,User1_Surname,Any_description_1,user1@enm.com,Admin123,true,false,"ADMINISTRATOR,SECURITY_ADMIN,UserManagement_COM_ROLE_1,UserManagement_COMAlias_ROLE_1",User1_Name_New,User1_Surname_New,user1@test.com
+UserManagement_UserToCheckProfile2,User2_Name,User2_Surname,Any_description_2,user2@enm.com,Admin123,true,false,"OPERATOR",User2_Name_New,User2_Surname_New,user2@test.com

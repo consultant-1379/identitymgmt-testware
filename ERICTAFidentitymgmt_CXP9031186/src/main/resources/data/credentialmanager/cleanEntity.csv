@@ -1,0 +1,5 @@
+command,name
+"pkiadm etm --delete --entitytype ee --name",user_curi_active
+"pkiadm etm --delete --entitytype ee --name",user_curi_new
+"pkiadm pfm -d -type entity -n",SLS_USER_EP
+"pkiadm pfm --delete --profiletype certificate --name",SLS_USER_CP

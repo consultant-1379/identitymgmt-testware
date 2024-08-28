@@ -1,0 +1,2 @@
+nodeType,networkElementId,ipAddress,ossPrefix,port,transportType,teamName
+RadioNode,TGM_TAF_Despicable_01,1.1.1.250,,6513,TLS,DespicableUs

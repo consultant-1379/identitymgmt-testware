@@ -1,0 +1,2 @@
+username,firstName,lastName,description,email,password,confirmPassword,enabled,forcePasswordChange,newPassword,roles,targetGroups,targetGroupsExpected,rolesType
+UserManagement_CreateUser_Cancel,User1_Name,User1_Surname,Description1,user1@enm.com,Admin123,Admin123,false,true,Admin123111,"ADMINISTRATOR,SECURITY_ADMIN,UserManagement_COM_ROLE_1,UserManagement_COMAlias_ROLE_1,UserManagement_CUSTOM_CAPAB_1","default,default,NONE,UserManagement_TAF_TG_1,UserManagement_TAF_TG_2","ALL,ALL,NONE,1,1","system,system,com,com,system"

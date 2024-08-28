@@ -1,0 +1,2 @@
+username,firstName,lastName,description,email,password,enabled,roles
+UserManagement_TerminateSessions1,Terminate,Sessions,Description,TerminateSessions@test.com,TestPassw0rd,true,OPERATOR

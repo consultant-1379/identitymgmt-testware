@@ -1,0 +1,13 @@
+username,firstName,lastName,password,roles,email,enabled,customizedPasswordAgeingEnable,passwordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount,passwordResetFlag,description,specialAction
+#------------------------------------------------------------------------------
+# DataSource Name:
+# Setup/TearDown: AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.importUsersFromXml
+# Description: This Datasource contain users that should be created with import Test Case:
+#              it should be use to verify if all Users from XML were created in ENM.
+# Notes:
+#------------------------------------------------------------------------------
+Agat_ImportingUser_01,FirstName_01,LastName_01,Password,FM_Operator,firstname_01.lastname_01@agat.email.test,true,,,,,,,User imported from XML file,new
+Agat_ImportingUser_02,FirstName_02,LastName_02,Password,FMX_Operator,firstname_02.lastname_02@agat.email.test,true,,,,,,,User imported from XML file,new
+Agat_ImportingUser_03,FirstName_03,LastName_03,Password,PM_Operator,firstname_03.lastname_03@agat.email.test,true,,,,,,,User imported from XML file,new
+Agat_ImportingUser_04,FirstName_04,LastName_04,Password,Shm_Operator,firstname_04.lastname_04@agat.email.test,true,,,,,,,User imported from XML file,new

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Edit User Management - DespicableUs">
+
+    <test name="Group Edit Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.GroupEditScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+      <test name="Group Edit Negative Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.GroupEditNegativeScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

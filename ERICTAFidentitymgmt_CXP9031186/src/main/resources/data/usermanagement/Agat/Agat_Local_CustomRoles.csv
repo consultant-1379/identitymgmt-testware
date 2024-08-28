@@ -1,0 +1,15 @@
+name,type,description,status,policy,assignedRoles
+#------------------------------------------------------------------------------
+# DataSource Name: ROLE_TO_CREATE (ROLE_TO_DELETE)
+# Setup/TearDown: AgatSetupAndTeardownScenario.onBeforeSuite,
+#                 AgatSetupAndTeardownScenario.onAfterSuite,
+#                 AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.createRoles,
+#             AgatTestCasesScenario.assignRoleAndTargeGroupToUser,
+#             (AgatTestCasesScenario.deleteRoles).
+# Description: list of Roles to Create (Delete) and to assign to Users
+# Notes: Each datarecord is managed by a vUser and in DataDrivenScenario representing a test;
+#         so if we've three datarecord, we've also three executed Tests
+#------------------------------------------------------------------------------
+agat_role_fm,custom,Local Agat Roles for FM,ENABLED,"{""open_alarms"": [""execute"", ""query""]}",
+

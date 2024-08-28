@@ -1,0 +1,10 @@
+customizedPasswordAgeingEnable,passwordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount
+#------------------------------------------------------------------------------
+# DataSource Name: USER_INFO_AGEING_UPDATE
+# Setup/TearDown: AgatTestCasesScenario.testClassSetup.
+# Test Cases: AgatTestCasesScenario.updateExistingUserAgeingInformation.
+# Description: List of data to change in Ageing information
+# Notes: Each datarecord is managed by a vUser and in DataDrivenScenario representing a test;
+#         so if we've five datarecord, we've also five executed Tests
+#------------------------------------------------------------------------------
+true,true,15,14,0

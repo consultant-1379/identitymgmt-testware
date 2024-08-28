@@ -1,0 +1,4 @@
+role,users
+OPERATOR,"aga1,aga2,aga_del,aga_reissue,aga_inactive,aga,aga_new"
+ADMINISTRATOR,"aga1,aga2,aga_reissue,aga_inactive,aga_new"
+SECURITY_ADMIN,"aga1,aga2,aga_inactive"

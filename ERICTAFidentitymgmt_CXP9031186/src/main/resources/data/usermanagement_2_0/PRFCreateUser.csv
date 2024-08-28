@@ -1,0 +1,2 @@
+username,password,firstName,lastName,description,email,enabled,passwordResetFlag,roles
+GIC_PR_DUS_positive,"TestPassw0rd1#",pwdResetFlagPositive,testUser,description,pwdcompliance@ericsson.com,true,true,"OPERATOR"

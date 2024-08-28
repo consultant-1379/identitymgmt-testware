@@ -1,0 +1,40 @@
+testId,teamName,testCaseId,nodeType
+1,DespicableUs,"TORF-182613 TC1",Not Applicable
+41,DespicableUs,"TORF-182613 TC1",Not Applicable
+42,DespicableUs,"TORF-182613 TC1",Not Applicable
+2,DespicableUs,"TORF-74463 TC2",Not Applicable
+3,DespicableUs,"TORF-74463 TC3",Not Applicable
+4,DespicableUs,"TORF-74468",Not Applicable
+5,DespicableUs,"TORF-109689",Not Applicable
+6,DespicableUs,"TORF-176339",Not Applicable
+7,DespicableUs,"TORF-74470",Not Applicable
+8,DespicableUs,"TORF-74471",Not Applicable
+9,DespicableUs,"TORF-69363 TC1",Not Applicable
+10,DespicableUs,"TORF-69363 TC3",Not Applicable
+11,DespicableUs,"TORF-107721 TC1",Not Applicable
+12,DespicableUs,"TORF-107721 TC2",Not Applicable
+13,DespicableUs,"TORF-74465 TORF-74466",Not Applicable
+14,DespicableUs,"TORF-151521",Not Applicable
+15,DespicableUs,"TORF-107723",Not Applicable
+16,DespicableUs,"TORF-149723",Not Applicable
+17,DespicableUs,"TORF-149723",Not Applicable
+18,DespicableUs,"TORF-176339-Func1",Not Applicable
+19,DespicableUs,"TORF-107720_browserBackButton",Not Applicable
+20,The16thFloor,"TORF-107722_GAT_1",Not Applicable
+21,The16thFloor,"TORF-226521",Not Applicable
+22,The16thFloor,"TORF-287909_SpecialCharacters",Not Applicable
+23,DespicableUs,"TORF-405046_Funct_1",Not Applicable
+24,DespicableUs,"TORF-573672_Funct1",Not Applicable
+25,DespicableUs,"TORF-573672_Funct1",Not Applicable
+26,DespicableUs,"TORF-573672_Funct1",Not Applicable
+27,DespicableUs,"TORF-573672_Funct1",Not Applicable
+28,DespicableUs,"TORF-573672_Funct1",Not Applicable
+29,DespicableUs,"TORF-573672_Funct2",Not Applicable
+32,DespicableUs,"TORF-573672_Funct3",Not Applicable
+33,DespicableUs,"TORF-573672_Funct3",Not Applicable
+34,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable
+35,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable
+36,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable
+37,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable
+38,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable
+39,DespicableUs,"TORF-558222_IndiaRegulation_Test_create_update_user_via_NBI",Not Applicable

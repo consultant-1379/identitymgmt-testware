@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User Management India Regulator Configuration - DespicableUs">
+
+    <test name="User Management in India Regulator Configuration">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.UserManagementHardenedScenario">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.UserManagementChangePasswordHardenedScenario">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.PasswordComplexityHardenedScenario">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

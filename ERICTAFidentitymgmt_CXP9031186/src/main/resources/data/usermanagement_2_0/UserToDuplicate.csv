@@ -1,0 +1,2 @@
+username,firstName,lastName,description,email,password,newPassword,enabled,roles,rolesExpected,customizedPasswordAgeingEnable,passwordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount,isLocal,checkAuthMode
+UserManagement_UserToDuplicate,ToDuplicate,User,Description,test@test.ie,Blah1234,ChangePassw0rd,true,"ADMINISTRATOR,SECURITY_ADMIN,UserManagement_COM_ROLE_1,UserManagement_COMAlias_ROLE_1,PM-Advanced","ADMINISTRATOR,SECURITY_ADMIN,UserManagement_COM_ROLE_1,UserManagement_COMAlias_ROLE_1,PM-Advanced",true,true,160,14,0,true,true

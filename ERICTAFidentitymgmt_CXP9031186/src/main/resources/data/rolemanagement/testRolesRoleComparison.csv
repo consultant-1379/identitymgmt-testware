@@ -1,0 +1,15 @@
+name,type,description,status,assignedRoles,policy
+RoleManagement_UI_testRole1ComparisonCOMRoleEnabled,com,this is first testing COM Role for Role Comparison that is enabled,ENABLED,,
+RoleManagement_UI_testRole2ComparisonCOMRoleEnabled,com,this is second testing COM Role for Role Comparison that is enabled,ENABLED,,
+RoleManagement_UI_testRole1ComparisonCOMRoleDisabled,com,this is first testing COM Role for Role Comparison that is disabled,DISABLED,,
+RoleManagement_UI_testRole2ComparisonCOMRoleDisabled,com,this is second testing COM Role for Role Comparison that is disabled,DISABLED,,
+RoleManagement_UI_testRole1ComparisonCustomRoleEnabled,custom,this is first testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole1ComparisonCOMRoleEnabled|RoleManagement_UI_testRole1ComparisonCOMRoleDisabled","{""cppinventorysynch_service"": [""create"",""execute"",""delete""]}"
+RoleManagement_UI_testRole2ComparisonCustomRoleEnabled,custom,this is second testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole1ComparisonCOMRoleEnabled|RoleManagement_UI_testRole1ComparisonCOMRoleDisabled","{""cppinventorysynch_service"": [""create"",""execute"",""delete""],""fm_services"": [""read"",""query"",""update"",""execute""]}"
+RoleManagement_UI_testRole3ComparisonCustomRoleEnabled,custom,this is third testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole2ComparisonCOMRoleEnabled|RoleManagement_UI_testRole2ComparisonCOMRoleDisabled","{""fm_services"": [""read"",""query"",""update"",""execute""]}"
+01RoleManagement_UI_testRole1ComparisonCOMRoleEnabled,com,this is first testing COM Role for Role Comparison that is enabled,ENABLED,,
+01RoleManagement_UI_testRole2ComparisonCOMRoleEnabled,com,this is second testing COM Role for Role Comparison that is enabled,ENABLED,,
+01RoleManagement_UI_testRole1ComparisonCOMRoleDisabled,com,this is first testing COM Role for Role Comparison that is disabled,DISABLED,,
+01RoleManagement_UI_testRole2ComparisonCOMRoleDisabled,com,this is second testing COM Role for Role Comparison that is disabled,DISABLED,,
+01RoleManagement_UI_testRole1ComparisonCustomRoleEnabled,custom,this is first testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole1ComparisonCOMRoleEnabled|RoleManagement_UI_testRole1ComparisonCOMRoleDisabled","{""cppinventorysynch_service"": [""create"",""execute"",""delete""]}"
+01RoleManagement_UI_testRole2ComparisonCustomRoleEnabled,custom,this is second testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole1ComparisonCOMRoleEnabled|RoleManagement_UI_testRole1ComparisonCOMRoleDisabled","{""cppinventorysynch_service"": [""create"",""execute"",""delete""],""fm_services"": [""read"",""query"",""update"",""execute""]}"
+01RoleManagement_UI_testRole3ComparisonCustomRoleEnabled,custom,this is third testing Custom Role for Role Comparison,ENABLED,"RoleManagement_UI_testRole2ComparisonCOMRoleEnabled|RoleManagement_UI_testRole2ComparisonCOMRoleDisabled","{""fm_services"": [""read"",""query"",""update"",""execute""]}"

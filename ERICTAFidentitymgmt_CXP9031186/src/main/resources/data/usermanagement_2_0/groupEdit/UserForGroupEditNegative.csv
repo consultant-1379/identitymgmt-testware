@@ -1,0 +1,3 @@
+username,firstName,lastName,description,email,password,enabled,forcePasswordChange,roles
+UserManagement_GroupEditUser1Negative,User1Negative_Name,User1Negative_Surname,Original description,user1@enm.com,Admin123,true,false,"GEN_UserManagement_COM_ROLE_1,GEN_UserManagement_COM_ROLE_2,FM-Normal"
+UserManagement_GroupEditUser2Negative,User2Negative_Name,User2Negative_Surname,Original description,user2@enm.com,Admin123,false,false,"GEN_UserManagement_COM_ROLE_2"

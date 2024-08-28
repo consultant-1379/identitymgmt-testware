@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UserManagement_RFALoop250 - DespicableUs">
+
+    <test name="Before and After test methods">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.BeforeAfterTest">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Create User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewCreateUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Edit User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewEditUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Delete User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewDeleteUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Duplicate User">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.DuplicateUserScenario">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Change User Password">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.ChangePasswordScenario">
+                <methods>
+                    <include name=".*" />
+                    <exclude name="testChangePasswordNoForceChangePassword" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Force Change Password Test">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.ForceChangePasswordScenario">
+                <methods>
+                    <include name=".*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

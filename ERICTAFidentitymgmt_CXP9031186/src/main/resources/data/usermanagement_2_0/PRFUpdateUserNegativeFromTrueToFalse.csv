@@ -1,0 +1,2 @@
+username,firstName,lastName,email,enabled,roles,passwordAgeingEnable,customizedPasswordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount,isForPasswordAgeing,isForcedChangePassword,passwordResetFlag
+GIC_PR_DUS_positive_undefined,pwdResetFlagFromTrueToFalse,negative,pwdcompliance@ericsson.com,true,OPERATOR,true,true,20,4,0,false,true,false

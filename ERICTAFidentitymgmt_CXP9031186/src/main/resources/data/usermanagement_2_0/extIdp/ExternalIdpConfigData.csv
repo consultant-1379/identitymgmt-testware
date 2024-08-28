@@ -1,0 +1,13 @@
+context,remoteAuthProfile,authType,primaryServerAddress,secondaryServerAddress,baseDN,ldapConnectionMode,userBindDNFormat,bindDN,bindPassword
+#NOSEARCH
+1,NOSEARCH,REMOTEAUTHN,"10.45.205.253:1389","141.137.99.170:6389","dc=acme,dc=com",LDAP,"uid=$user,ou=pdu nam,dc=acme,dc=com",,
+2,NOSEARCH,LOCAL,"10.45.205.253:1389","","dc=acme,dc=com",LDAP,"uid=$user,ou=pdu nam,dc=acme,dc=com",,
+3,NOSEARCH,LOCAL,,,,,,,
+4,NOSEARCH,REMOTEAUTHN,,,,,,,
+#STANDARD SEARCH
+11,STANDARD,REMOTEAUTHN,"10.45.205.253:1389","","dc=acme,dc=com",LDAP,"uid=$user","cn=extldapadmin,ou=people,dc=acme,dc=com",Externalldapadmin01
+
+
+# Extidp Servers address
+# 10.45.205.253:1389  External Idp server on MT
+# 141.137.99.170:6389  External Idp server (Local Muletto)

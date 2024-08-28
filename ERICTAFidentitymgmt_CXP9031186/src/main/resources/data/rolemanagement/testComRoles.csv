@@ -1,0 +1,7 @@
+name,type,description,status,assignedRoles,policy
+RoleManagement_UI_testRoleCOMRoleEnabled,com,this is COM Role that is enabled,ENABLED,,
+RoleManagement_UI_testRoleCOMRoleDisabled,com,this is COM Role that is disabled,DISABLED,,
+RoleManagement_UI_testRoleCOMRoleNonassignable,com,this is COM Role that is nonassignable,DISABLED_ASSIGNMENT,,
+01RoleManagement_UI_testRoleCOMRoleEnabled,com,this is COM Role that is enabled,ENABLED,,
+01RoleManagement_UI_testRoleCOMRoleDisabled,com,this is COM Role that is disabled,DISABLED,,
+01RoleManagement_UI_testRoleCOMRoleNonassignable,com,this is COM Role that is nonassignable,DISABLED_ASSIGNMENT,,

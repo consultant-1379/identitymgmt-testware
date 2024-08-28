@@ -1,0 +1,3 @@
+username,firstName,lastName,description,email,password,enabled,forcePasswordChange,roles,passwordResetFlag
+UserManagement_ForcePCUser1,User1PC_Name,User1PC_Surname,Original description,user1@enm.com,Admin123,true,true,"ADMINISTRATOR",true
+UserManagement_ForcePCUser2,User2PC_Name,User2PC_Surname,Original description,user2@enm.com,Admin123,true,false,"ADMINISTRATOR",false

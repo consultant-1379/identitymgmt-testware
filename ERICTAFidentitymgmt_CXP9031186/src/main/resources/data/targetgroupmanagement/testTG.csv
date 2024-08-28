@@ -1,0 +1,5 @@
+index,targetGroupName,targetGroupDescription
+1,TargetGroupManagement_testTGName.Dot,"this is valid Target Group with dot in name"
+2,TargetGroupManagement_testTGName-Hyphen,"this is valid Target Group with hyphen in name"
+3,TargetGroupManagement_testTGName_Underscore,"this is valid Target Group with underscore in name"
+#4,TargetGroupManagement_testTGName0123456789,"this is valid Target Group with number in name"

@@ -1,0 +1,4 @@
+command,expectedResult,action
+"cmedit create VirtualNetworkFunctionManager=ECM_01_DespicableUs virtualNetworkFunctionManagerId=""ECM_01_DespicableUs"",vmType=""ECM"",tenants=[ECM,other_tenant] -ns=OSS_NE_DEF -v=1.0.0","1 instance(s) updated",add
+"cmedit create VirtualNetworkFunctionManager=ECM_01_DespicableUs,HttpConnectivityInformation=1 httpConnectivityInformationId=""1"",ipAddress=""141.137.212.29"",port=""8080"" -ns=HTTP_MED -v=1.0.0","1 instance(s) updated",add
+"cmedit delete VirtualNetworkFunctionManager=ECM_01_DespicableUs -ALL -force","5 instance(s) deleted",remove

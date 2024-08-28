@@ -1,0 +1,48 @@
+# Compiled source #
+*.class
+*/bin/*
+
+# Eclipse files
+.project
+.classpath
+.settings
+
+# Packages
+*.jar
+
+# Python files
+*.pyc
+*.swp
+
+# Maven build files
+target
+reports
+# ARQ tests
+arq-perf
+
+# PMD
+.pmd
+
+# Merge files
+*.orig
+
+# Erlang derived files
+*.beam
+*.app
+
+# misc
+*~
+\#*\#
+/eiffel-core/work/
+nbactions.xml
+eiffel-fem-functional-test/eiffel-fem-tests/test-output/*
+
+# IntelliJ files
+*.idea
+*.iml
+
+#Logs
+*.log
+
+#Test output files
+test-output

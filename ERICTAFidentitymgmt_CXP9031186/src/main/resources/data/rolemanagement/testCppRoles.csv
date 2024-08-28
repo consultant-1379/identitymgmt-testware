@@ -1,0 +1,4 @@
+name,type,description,status,assignedRoles,policy
+RoleManagement_UI_testRoleCPPRoleEnabled,cpp,this is CPP Role that is enabled,ENABLED,,
+RoleManagement_UI_testRoleCPPRoleDisabled,cpp,this is CPP Role that is disabled,DISABLED,,
+RoleManagement_UI_testRoleCPPRoleNonassignable,cpp,this is CPP Role that is nonassignable,DISABLED_ASSIGNMENT,,

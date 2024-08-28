@@ -1,0 +1,2 @@
+username,firstName,lastName,description,email,password,enabled,forcePasswordChange,roles
+UserManagement_UserToCheckAccessDenied,User_Name_Access_Denied,User_Surname_Access_Denied,Description,user2@enm.com,Admin123,true,false,"OPERATOR"

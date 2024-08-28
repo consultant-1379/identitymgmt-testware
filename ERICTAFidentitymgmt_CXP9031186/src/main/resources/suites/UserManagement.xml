@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User Management - DespicableUs">
+
+    <test name="Before and After test methods">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.BeforeAfterTest">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="User List Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.UserListScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Create, Edit and Delete User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.CreateEditAndDeleteUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Create User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewCreateUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Edit User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewEditUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Delete User Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.NewDeleteUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Force Change Password Test">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.ForceChangePasswordScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Terminate Sessions">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.TerminateSessionsScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Change Password">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.ChangePasswordScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Duplicate User">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.DuplicateUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="User Profile">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.UserProfileScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="User Access Denied">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.UserAccessDeniedScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Get Credential Test">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.CredentialManagementScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Group Edit Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.GroupEditScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Group Edit Negative Tests">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.GroupEditNegativeScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Revoke and Force Passwd change">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.EditUserForForceAndRevokePassChangeScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Federated Users Management">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.FederatedUserScenario">
+                <methods>
+                    <include name=".*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Check Browser Back Button">
+        <classes>
+            <class name="com.ericsson.nms.security.test.usermanagement_2_0.scenario.BrowserBackScenario">
+                <methods>
+                    <include name="testBrowserGoBack"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

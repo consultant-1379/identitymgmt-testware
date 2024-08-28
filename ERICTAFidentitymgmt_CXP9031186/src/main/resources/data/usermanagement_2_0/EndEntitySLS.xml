@@ -1,0 +1,27 @@
+<Entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EntitiesSchema.xsd">
+  <Entity>
+    <PublishCertificatetoTDPS>true</PublishCertificatetoTDPS>
+    <EntityProfile Name="SLS_USER_EP"/>
+
+    <KeyGenerationAlgorithm>
+      <Name>RSA</Name>
+      <KeySize>2048</KeySize>
+    </KeyGenerationAlgorithm>
+    <Category>
+      <Modifiable>true</Modifiable>
+      <Name>USER-SLS</Name>
+    </Category>
+    <EntityInfo>
+      <Name>UserManagement_CredentialUser1</Name>
+
+      <Subject>
+        <SubjectField>
+          <Type>COMMON_NAME</Type>
+          <Value>UserManagement_CredentialUser1</Value>
+        </SubjectField>
+      </Subject>
+      <OTP>TestPass</OTP>
+      <OTPCount>999</OTPCount>
+    </EntityInfo>
+  </Entity>
+</Entities>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RoleManagement_RFALoop250 - DespicableUs">
+    <test name="Role Management - Create Role Page">
+        <classes>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateRoleAliasScenario"/>
+            <class name="com.ericsson.nms.security.test.rolemanagement.scenario.RMCreateCustomRoleScenario"/>
+        </classes>
+    </test>
+</suite>

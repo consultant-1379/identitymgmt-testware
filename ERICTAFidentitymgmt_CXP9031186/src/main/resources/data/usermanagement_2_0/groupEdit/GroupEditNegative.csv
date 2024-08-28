@@ -1,0 +1,2 @@
+context,username,messagesOnSummary,usersOnApply,modifyRoles,isAssign,roles
+1,"UserManagement_GroupEditUser1Negative,UserManagement_GroupEditUser2Negative","2 user(s) will be updated,Roles of 2 user(s) will be unassigned,UserManagement_GroupEditUser2Negative user roles cannot be updated because user has to contain at least one role","UserManagement_GroupEditUser1Negative",true,false,"GEN_UserManagement_COM_ROLE_2"

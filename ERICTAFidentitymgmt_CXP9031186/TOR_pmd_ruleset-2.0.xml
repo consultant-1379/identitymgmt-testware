@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="TOR rule set">
+
+    <description>
+        TOR pmd rule set
+    </description>
+
+    <rule ref="category/java/errorprone.xml/AvoidCallingFinalize" />               <!-- Mandatory -->
+    <rule ref="category/java/codestyle.xml/DontImportJavaLang" />                   <!-- Mandatory -->
+    <rule ref="category/java/codestyle.xml/AvoidDollarSigns" />                       <!-- Mandatory -->
+    <rule
+        ref="category/java/errorprone.xml/MethodWithSameNameAsEnclosingClass" />   <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/ReturnFromFinallyBlock" />                   <!-- Mandatory -->
+    <rule ref="category/java/bestpractices.xml/UnusedImports" />                       <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/ImportFromSamePackage" />               <!-- Mandatory -->
+    <rule ref="category/java/codestyle.xml/DuplicateImports" />                       <!-- Mandatory -->
+
+
+    <rule
+        ref="category/java/errorprone.xml/UnnecessaryConversionTemporary" />     <!-- Mandatory -->
+
+
+    <rule ref="category/java/codestyle.xml/UnnecessaryConstructor" />           <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/FinalizeShouldBeProtected" />           <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/DontImportSun" />                  <!-- Mandatory -->
+    <rule
+        ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass" />       <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/CloseResource" />                           <!-- Mandatory -->
+    <rule
+        ref="category/java/errorprone.xml/FinalizeDoesNotCallSuperFinalize" /> <!-- Mandatory -->
+    <!-- <rule ref="category/java/codestyle.xml/ClassNamingConventions"/> Mandatory -->
+
+    <!-- Deprecated to be removed in PMD 7.0.0 - Leaving in for now -->
+    <rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces" />
+    <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces" />
+    <rule ref="category/java/codestyle.xml/IfElseStmtsMustUseBraces" />
+    <rule ref="category/java/codestyle.xml/WhileLoopsMustUseBraces" />
+    <rule
+        ref="category/java/codestyle.xml/SuspiciousConstantFieldName" />
+
+    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />              <!-- Mandatory -->
+    <rule
+        ref="category/java/errorprone.xml/OverrideBothEqualsAndHashcode" />         <!-- Mandatory -->
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
+
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateField" />               <!-- Mandatory but watch -->
+    <rule ref="category/java/design.xml/SimplifyBooleanExpressions" />           <!-- Mandatory -->
+    <rule ref="category/java/design.xml/SimplifyBooleanReturns" />               <!-- Mandatory -->
+    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter" />            <!-- Mandatory -->
+
+
+
+    <rule ref="category/java/codestyle.xml/LocalVariableCouldBeFinal" />       <!-- Mandatory -->
+    <rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal" />       <!-- Mandatory -->
+    <rule ref="category/java/performance.xml/StringInstantiation" />                 <!-- Mandatory -->
+    <rule ref="category/java/design.xml/FinalFieldCouldBeStatic" />               <!-- Mandatory -->
+    <rule ref="category/java/errorprone.xml/InstantiationToGetClass" />              <!-- Mandatory -->
+    <rule ref="category/java/design.xml/ImmutableField" />                       <!-- Mandatory -->
+    <rule ref="category/java/design.xml/UseUtilityClass" />                         <!-- Advisatory -->
+    <rule ref="category/java/design.xml">
+        <!-- Disabled these code size rules following TOR Mediation Team Sprint 
+            1 Retrospective Review pending. -->
+        <exclude name="CyclomaticComplexity" />
+        <exclude name="NPathComplexity" />
+        <exclude name="TooManyMethods" />
+        <exclude name="LoosePackageCoupling" />
+        <exclude name="LawOfDemeter" />
+
+    </rule>
+
+    <!-- Increased to 50 for Service Framework team APIs -->
+    <rule ref="category/java/design.xml/TooManyMethods">
+        <properties>
+            <property name="maxmethods" value="50" />
+        </properties>
+    </rule>
+
+    <rule
+        ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod" />    <!-- Mandatory but watch -->
+    <rule ref="category/java/bestpractices.xml/LooseCoupling" />                      <!-- Advisatory but watch -->
+    <rule ref="category/java/design.xml/CouplingBetweenObjects" />             <!-- Mandatory but watch -->
+    <rule ref="category/java/errorprone.xml/AvoidCatchingThrowable" />      <!-- Advisatory -->
+    <rule
+        ref="category/java/design.xml/SignatureDeclareThrowsException" /> <!-- Mandatory -->
+    <rule
+        ref="category/java/errorprone.xml/AvoidInstanceofChecksInCatchClause" />       <!-- Mandatory -->
+    <rule ref="category/java/design.xml/ExceptionAsFlowControl" />          <!-- Mandatory -->
+    <rule
+        ref="category/java/design.xml/AvoidThrowingRawExceptionTypes" />  <!-- Mandatory -->
+    <rule
+        ref="category/java/design.xml/AvoidThrowingNullPointerException" /><!-- 
+        Mandatory -->
+
+    <!-- JEE -->
+    <rule ref="category/java/errorprone.xml/UseProperClassLoader" />                   <!-- new rule, mandatory but watch -->
+    <rule ref="category/java/errorprone.xml/DoNotCallSystemExit" />                    <!-- new rule, mandatory but watch -->
+    <rule
+        ref="category/java/errorprone.xml/StaticEJBFieldShouldBeFinal" />            <!-- new rule, mandatory but watch -->
+    <rule ref="category/java/multithreading.xml/DoNotUseThreads" />                        <!-- new rule, mandatory but watch -->
+</ruleset>

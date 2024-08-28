@@ -1,0 +1,2 @@
+username,firstName,lastName,email,enabled,roles,password,passwordAgeingEnable,customizedPasswordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount,isForPasswordAgeing,isForcedChangePassword
+GIC_PR_DUS_positive_undefined,prfUndefChange,prfUndefChange,pwdcompliance@ericsson.com,true,ADMINISTRATOR,"TestPassw0rd1#",true,true,24,1,0,false,true

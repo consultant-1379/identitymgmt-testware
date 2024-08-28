@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ericsson.nms</groupId>
+        <artifactId>integration</artifactId>
+        <version>15.2.0.40</version>
+    </parent>
+
+    <groupId>com.ericsson.nms.security</groupId>
+    <artifactId>identitymgmt-testware</artifactId>
+    <name>Identity Management - Testware</name>
+    <version>1.102.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ERICTAFidentitymgmt_operators</module>
+        <module>ERICTAFidentitymgmt_CXP9031186</module>
+        <module>test-pom-identitymgmt</module>
+    </modules>
+
+    <scm>
+        <connection>${ericsson.scm.url}/${project.artifactId}</connection>
+        <developerConnection>${ericsson.scm.url}/${project.artifactId}</developerConnection>
+        <tag>identitymgmt-testware-1.17.9</tag>
+    </scm>
+
+    <properties>
+        <!--  Taf Framework, Library Bom and TDM version  -->
+        <taf_version>2.69.1</taf_version>
+        <enm-test-library-bom.version>1.2.184</enm-test-library-bom.version>
+        <tdm-datasource.version>1.0.121</tdm-datasource.version>
+        <target.java.version>1.7</target.java.version>
+        <groovy-eclipse-compiler.version>2.8.0-01</groovy-eclipse-compiler.version>
+        <groovy-eclipse-batch.version>2.1.5-03</groovy-eclipse-batch.version>
+        <plexus-compiler-api.version>2.2</plexus-compiler-api.version>
+        <generic-identity-mgmt-service-jar.version>1.77.1</generic-identity-mgmt-service-jar.version>
+        <enm-testware-quality-checks.plugin.version>1.0.101</enm-testware-quality-checks.plugin.version>
+        <main.basedir>${project.basedir}</main.basedir>
+
+	<media.category>testware</media.category>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.ericsson.cifwk</groupId>
+                <artifactId>taf-bom</artifactId>
+                <version>${taf_version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.ericsson.oss.testware.bom</groupId>
+                <artifactId>enm-test-library-bom</artifactId>
+                <version>${enm-test-library-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>2.8.8</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.ericsson.cifwk.taf</groupId>
+                    <artifactId>taf-maven-plugin</artifactId>
+                    <version>${taf_version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>clean</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <configuration>
+                    <rulesets>
+                        <!--this needs to be uploaded to nexus its attached to the JIRA ticket.
+                            CIS-101992 -->
+                        <ruleset>${main.basedir}/TOR_pmd_ruleset-2.0.xml</ruleset>
+                    </rulesets>
+                    <targetJdk>${target.java.version}</targetJdk>
+                    <excludes>
+                        <exclude>**/src/test/*.java</exclude>
+                        <exclude>**/generated/*.java</exclude>
+                    </excludes>
+                    <excludeRoots>
+                        <excludeRoot>target/generated-sources/xjc</excludeRoot>
+                    </excludeRoots>
+                    <includeTests>false</includeTests>
+                    <sourceEncoding>utf-8</sourceEncoding>
+                    <failOnViolation>false</failOnViolation>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.2</version>
+            </plugin>
+            <plugin>
+                <groupId>com.ericsson.cifwk.taf</groupId>
+                <artifactId>taf-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.ericsson.oss.testware.commontools</groupId>
+                <artifactId>enm-testware-quality-checks</artifactId>
+                <version>${enm-testware-quality-checks.plugin.version}</version>
+                <configuration>
+                    <checkStylesFailOnViolation>false</checkStylesFailOnViolation>
+                    <pmdFailOnViolation>false</pmdFailOnViolation>
+                    <findbugsFailOnViolation>false</findbugsFailOnViolation>
+                    <includeTests>false</includeTests>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

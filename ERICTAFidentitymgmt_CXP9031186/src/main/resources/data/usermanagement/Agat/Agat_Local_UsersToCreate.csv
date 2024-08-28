@@ -1,0 +1,15 @@
+username,firstName,lastName,password,roles,email,enabled,customizedPasswordAgeingEnable,passwordAgeingEnable,pwdMaxAge,pwdExpireWarning,graceLoginCount,passwordResetFlag,description,specialAction
+#------------------------------------------------------------------------------
+# DataSource Name:
+# Test Cases:
+# Description:
+# Notes:
+#------------------------------------------------------------------------------
+AgatLocal_Admin,Admin_FirstName,Admin_LastName,TestPassw0rd,ADMINISTRATOR,admin_firstname.admin_lastname@agat.email.test,true,,,,,,,,
+AgatLocal_SecurityAdmin,SecurityAdmin_FirstName,SecurityAdmin_LastName,TestPassw0rd,SECURITY_ADMIN,securityadmin_firstname.securityadmin_lastname@agat.email.test,true,,,,,,,,
+AgatLocal_AgeingUser,AgeingUser_FirstName,AgeingUser_LastName,TestPassw0rd,OPERATOR,ageinguser_firstname.ageinguser_lastname@agat.email.test,true,true,false,0,0,0,false,,
+AgatLocal_OperatorUser,OperatorUser_FirstName,OperatorUser_LastName,TestPassw0rd,OPERATOR,operatoruser_firstname.operatoruser_lastname@agat.email.test,true,,,,,,,,
+AgatLocal_AgatUpdatingUser-01,AgatUpdatingUser-01_FirstName,AgatUpdatingUser-01_LastName,TestPassw0rd,"Cmedit_Operator,Credm_Operator,Amos_Operator,FM_Operator,FMX_Operator,PM_Operator,Shm_Operator",agatupdatinguser-01_firstname.agatupdatinguser-01_lastname@agat.email.test,true,,,,,,,User imported from XML file,update
+AgatLocal_AgatUpdatingUser_02,AgatUpdatingUser-02_FirstName,AgatUpdatingUser-02_LastName,TestPassw0rd,Cmedit_Operator,agatupdatinguser-02_firstname.agatupdatinguser-02_lastname@agat.email.test,true,,,,,,,User imported from XML file,update
+AgatLocal_AgatUpdatingUser_03,AgatUpdatingUser-03_FirstName,AgatUpdatingUser-03_LastName,TestPassw0rd,Credm_Operator,agatupdatinguser-03_firstname.agatupdatinguser-03_lastname@agat.email.test,true,,,,,,,User imported from XML file,update
+AgatLocal_AgatUpdatingUser_04,AgatUpdatingUser-04_FirstName,AgatUpdatingUser-04_LastName,TestPassw0rd,Amos_Operator,agatupdatinguser-04_firstname.agatupdatinguser-04_lastname@agat.email.test,true,true,false,0,0,0,false,User imported from XML file,update

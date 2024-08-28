@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TargetGroupManagement_UI_Full - DespicableUs">
+
+    <test name="Target Group Management - Target group list">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMListScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Filter target groups">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMFilterScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Create target group">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMCreateScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Display target group">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMDisplayScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Delete target group">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMDeleteScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Edit target group">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMEditScenario"/>
+        </classes>
+    </test>
+    <test name="Target Group Management - Target group list with pagination">
+        <classes>
+            <class name="com.ericsson.nms.security.test.targetgroupmanagement.scenario.TGMPaginationScenario"/>
+        </classes>
+    </test>
+</suite>
+
